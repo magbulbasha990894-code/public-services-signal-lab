@@ -1,0 +1,61 @@
+{
+  "as_of": "2025-03-05",
+  "source_sha256": "0f2ae968cc7cc4c22edf434925b7834d9d06f4536c409b208f5ee20025f4a89d",
+  "config": {
+    "window": 56,
+    "min_history": 5,
+    "min_volume": 50,
+    "threshold": 0.04
+  },
+  "services": [
+    {
+      "service": "permit-intake",
+      "history_days": 8,
+      "baseline": 0.12903305255898723,
+      "opened": 199,
+      "late": 86,
+      "late_rate": 0.4321608040201005,
+      "interval_95": [
+        0.365260417093433,
+        0.5016307925992534
+      ],
+      "cutoff": 0.16903305255898723,
+      "excess_cases": 60.32,
+      "status": "review"
+    },
+    {
+      "service": "street-repairs",
+      "history_days": 8,
+      "baseline": 0.1488518316019683,
+      "opened": 119,
+      "late": 18,
+      "late_rate": 0.15126050420168066,
+      "interval_95": [
+        0.09787218291929412,
+        0.22646094201558137
+      ],
+      "cutoff": 0.19071567537619338,
+      "excess_cases": 0.29,
+      "status": "monitor"
+    },
+    {
+      "service": "library-support",
+      "history_days": 8,
+      "baseline": 0.15740740740740738,
+      "opened": 26,
+      "late": 12,
+      "late_rate": 0.46153846153846156,
+      "interval_95": [
+        0.28755582695234905,
+        0.6454236379556988
+      ],
+      "status": "low_volume"
+    },
+    {
+      "service": "records-desk",
+      "history_days": 8,
+      "baseline": 0.09048680787811222,
+      "status": "missing"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Keep fixture bytes unchanged for reproducible source SHA-256 values.
+*.csv -text
+*example-report.json text eol=lf
